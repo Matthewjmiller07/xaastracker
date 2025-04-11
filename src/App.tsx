@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const response = await fetch('/xaas-data.csv');
+        const response = await fetch('/xaastracker/xaas-data.csv');
         const csvText = await response.text();
         
         // Split into lines and remove empty ones
