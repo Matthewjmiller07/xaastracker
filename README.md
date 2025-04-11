@@ -1,11 +1,24 @@
-# React + TypeScript + Vite
+# XaaS Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A searchable and sortable list of Everything as a Service (XaaS) offerings.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search and filter XaaS entries
+- Sort by product name or service type
+- Submit new entries via email
+- Mobile-friendly design
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+## Deployment
+
+Automatically deployed to GitHub Pages on push to main branch.
 
 ## Expanding the ESLint configuration
 
